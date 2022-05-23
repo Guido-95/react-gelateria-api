@@ -1,0 +1,66 @@
+.gelato{
+    display: flex;
+    padding: 15px;
+    width: calc(98% / 2 - 42px);
+    height: 150px;
+    margin: 20px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    background-color: #def0f3;
+    
+}
+
+.gelato:hover{
+    transform: scale(1.01);
+    transition: all 0.2s linear;
+    cursor: pointer;
+    background-color: #90e0ef;
+}
+.gelato hr{
+    width: 100%;
+    border: 1px solid rgba(0,0,0,0.1);
+    margin: 5px;
+}
+.img-gelato{
+    margin-right: 20px;
+    height: 125px;
+    width: 150px;
+    border-radius: 10px;
+    border: 5px solid white;
+    overflow: hidden;
+}
+.info-gelato{
+    width: 300px;
+    height: 100%;
+    
+}
+
+.nome-prezzo-gelato{
+    display: flex;
+    justify-content: space-between;
+}
+.nome-prezzo-gelato > .prezzo{
+    padding: 5px;
+    border-radius: 10px;
+    color: white;
+    background-color: #0077b6;
+}
+.categoria-gelato{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+h4{
+    margin: 0;
+}
+
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.descrizione{
+    font-size: 15px;
+}
+
